@@ -1,7 +1,12 @@
 import React from 'react'
+import Product from '../components/product';
+import Slider from "../components/slider";
 
 export default function Menu() {
   return (
-    <div>Menu</div>
+    <div>
+      <Slider />
+      <Product />
+    </div>
   )
 }
