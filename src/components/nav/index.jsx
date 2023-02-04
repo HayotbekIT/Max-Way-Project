@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styledComponents from 'styled-components'
-import Logo from "./../../images/logo/logo.webp"
+import Logo from '../logo'
 
 export default function Navigation() {
     return (
@@ -9,9 +9,7 @@ export default function Navigation() {
             <div className="container">
                 <div className="row">
                     <div className="nav__left d-flex align-items-center col-md-6">
-                        <Link to="/" className="logo">
-                            <img src={Logo} alt="Logo" />
-                        </Link>
+                        <Logo />
                         <div className="nav-bar">
                             <Link to="/menu" className="nav__link">Меню</Link>
                             <Link to="/filials" className="nav__link">Филиалы</Link>
