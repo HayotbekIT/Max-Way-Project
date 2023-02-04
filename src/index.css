@@ -12,23 +12,43 @@ code {
     monospace;
 }
 
-a, span, button, input, textarea{
+a,
+span,
+button,
+input,
+textarea {
   display: inline-block;
 }
 
-h1, h2, h3, h4, h5, h6, p{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   padding: 0 !important;
   margin: 0 !important;
 }
-ul, ol{
+
+ul,
+ol {
   list-style-type: none;
 }
-img, svg, video{
+
+img,
+svg,
+video {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.nav{
+.nav {
   padding: 16px 0;
+}
+
+.title-2 {
+  text-transform: capitalize;
+  font-size: 1.75rem;
 }

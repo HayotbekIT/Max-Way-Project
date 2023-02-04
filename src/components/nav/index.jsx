@@ -22,7 +22,7 @@ export default function Navigation() {
                     <div className="nav__right col-md-6 d-flex flex-grow-1 align-items-center justify-content-between">
                         <a className="location d-flex align-items-center">
                             <div className="icon-holder">
-                                <i class="fa-solid fa-location-dot"></i>
+                                <i className="fa-solid fa-location-dot"></i>
                             </div>
                             <div className="icon-desc">
                                 <p>Доставка или Заказ с собой</p>
@@ -31,12 +31,12 @@ export default function Navigation() {
                         </a>
                         <a className="lang">
                             <div className="icon-holder">
-                                <i class="fa-sharp fa-solid fa-globe"></i>
+                                <i className="fa-sharp fa-solid fa-globe"></i>
                             </div>
                         </a>
                         <a className="buy d-flex align-items-center">
                             <div className="icon-holder">
-                                <i class="fa-solid fa-cart-shopping"></i>
+                                <i className="fa-solid fa-cart-shopping"></i>
                             </div>
                             <div className="icon-desc">
                                 0 сум
@@ -44,7 +44,7 @@ export default function Navigation() {
                         </a>
                         <a className="account">
                             <div className="icon-holder">
-                                <i class="fa-solid fa-user"></i>
+                                <i className="fa-solid fa-user"></i>
                             </div>
                         </a>
                     </div>
